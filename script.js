@@ -1,5 +1,6 @@
 import blackTshirtUrl from "./assets/black-adhd-army-tshirt.png";
 import pinkTshirtUrl from "./assets/pink-adhd-army-tshirt.png";
+import signedTshirtUrl from "./assets/signed-adhd-army-tshirt.png";
 
 const products = [
   {
@@ -27,19 +28,13 @@ const products = [
     id: "signed",
     name: "Signed T-Shirt",
     price: 25.99,
-    tags: ["Includes signed photo", "Limited drop of 100"],
+    tags: ["Signed design", "Includes signed photo"],
     sizes: ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
     colours: [
       {
-        name: "Black",
-        value: "black",
-        image: blackTshirtUrl,
-        swatch: "#080808"
-      },
-      {
         name: "Pink",
         value: "pink",
-        image: pinkTshirtUrl,
+        image: signedTshirtUrl,
         swatch: "#f68fb4"
       }
     ]
